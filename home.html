@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - KAI TUTTU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>KAI TUTTU</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Kitchens around you</a></li>
+                <li><a href="product.html">View Food Items</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bored of having pg, mess and hotel food? Here's AMMA's kai ruchi for you </h2>
+        <p>Explore the wide range of kitchens.</p>
+        <!-- Display featured products -->
+        <div class="product">
+            <img src="rest-1.jpg" alt="Product 1">
+            <h3>Divya's Kitchen</h3>
+            <p>Tasty meals from the South of India.</p>
+<p>Banashankari 2nd Stage, Bengaluru.</p>
+             <button id="Divya">View Details</button>
+<script>
+        document.getElementById("Divya").addEventListener("click", function() {
+            // Redirect to another HTML page
+            window.location.href = "Divya.html";
+        });
+    </script>
+        </div>
+        <div class="product">
+            <img src="rest-2.jpg" alt="Product 2">
+            <h3>Rekha's Kitchen</h3>
+            <p>Authentic meals from the North of India, including meals from Bihar and Punjab.</p>
+<p>Jayanagar 4th block, Bengaluru.</p>
+            <button id="Rekha">View Details</button>
+<script>
+        document.getElementById("Rekha").addEventListener("click", function() {
+            // Redirect to another HTML page
+            window.location.href = "Rekha.html";
+        });
+    </script>
+        </div>
+       <div class="product">
+            <img src="rest-3.jpg" alt="Product 2">
+            <h3>Swathi's Kitchen</h3>
+            <p>A loving housemaker, known for making the best non-veg dishes.</p>
+<p>RR Nagar, Bengaluru</p>
+             <button id="Swathi">View Details</button>
+<script>
+        document.getElementById("Swathi").addEventListener("click", function() {
+            // Redirect to another HTML page
+            window.location.href = "Swathi.html";
+        });
+    </script>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 KAI TUTTU. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
